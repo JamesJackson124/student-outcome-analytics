@@ -66,35 +66,7 @@ The main analytical process is captured in a series of Jupyter notebooks:
 
 ---
 
-## 6. Quick Start
-
-### 6.1. Clone the Repository
-```bash
-git clone https://github.com/JamesJackson124/student-outcome-analysis-project.git
-cd student-outcome-analysis-project
-```
-
-### 6.2. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 6.3. Run Jupyter Notebooks
-```bash
-jupyter notebook
-```
-Follow the notebooks in order as listed in **Section 5**.
-
-### 6.4. Run the Website Locally
-```bash
-cd app
-python app.py
-```
-Then open `http://0.0.0.0:8080/` in your browser.
-
----
-
-## 7. Outputs
+## 6. Outputs
 - **master-table.csv** – Clean, merged dataset ready for analysis  
 - **Excel Tables:** Categorical outcome breakdowns (e.g., by gender, disability, age band)  
 - **Plots:** Stacked bars, scatterplots, histograms, boxplots, correlation heatmap  
@@ -104,7 +76,7 @@ Then open `http://0.0.0.0:8080/` in your browser.
 
 ---
 
-## 8. Contact
+## 7. Contact
 **Author:** James Jackson  
 📧 Email: jamesneiljackson@gmail.com  
 
