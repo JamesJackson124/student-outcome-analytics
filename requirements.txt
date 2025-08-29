@@ -1,0 +1,13 @@
+dash
+pandas
+numpy
+matplotlib
+seaborn
+sqlalchemy
+requests
+geopandas
+shapely
+plotly
+joblib
+scikit-learn
+
