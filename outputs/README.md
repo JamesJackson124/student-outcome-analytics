@@ -8,8 +8,7 @@ These outputs include visualisations created during EDA, regression analysis, an
 ## Folder Structure
 
 ```
-outputs/
-├── visualisations/       # All plots and charts generated during analysis
+├── outputs/     # All plots and charts generated during analysis
 │   ├── distributions/
 │   ├── categorical_vs_outcome/
 │   ├── feature_relationships/
@@ -17,8 +16,7 @@ outputs/
 │   ├── r_squared_analysis/
 │   ├── model_diagnostics/
 │   └── regression_coefficients/
-└── tables/               # Excel summary tables
-```
+│   └── excel/
 
 ---
 
@@ -55,7 +53,7 @@ outputs/
 
 ## Tables
 
-### `tables/`
+### `excel/`
 - **summary_tables.xlsx** (or equivalent):  
   Contains grouped counts and percentages of student outcomes (Pass, Fail, Withdrawn, Distinction) across key categorical features:
   - Region  
