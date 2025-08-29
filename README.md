@@ -1,6 +1,11 @@
 # Student Outcome Analysis Project
 
-## 1. Project Overview
+## 1. Website
+The predictor tool has been deployed on my personal website. Please click the link below to use the tool and learn about the model's diagnostics:
+
+https://james-jackson-ds.fly.dev/student
+
+## 2. Project Overview
 This project investigates student performance and dropout risk using the **Open University Learning Analytics Dataset (OULAD)**.  
 The goal is to understand factors influencing outcomes and build predictive tools to support student success.  
 
@@ -14,7 +19,7 @@ The workflow includes:
 
 ---
 
-## 2. Data Source
+## 3. Data Source
 The project uses the **OULAD dataset**, which contains anonymised information on 32,000+ students across 7 tables.  
 For this analysis, we focused on 4 key tables:
 - `studentInfo` – demographic information (age, gender, region, disability, etc.)  
@@ -26,7 +31,7 @@ These were merged into a **master student table**, exported as `master-table.csv
 
 ---
 
-## 3. Tools and Technologies
+## 4. Tools and Technologies
 The project was developed in Python, using both **SQL (SQLite)** and **pandas** for data preparation.  
 Key libraries include:
 - **Data processing:** `pandas`, `numpy`, `sqlalchemy`  
@@ -39,7 +44,7 @@ A complete list of dependencies is available in **requirements.txt**.
 
 ---
 
-## 4. Repository Structure
+## 5. Repository Structure
 ```
 ├── data/                # Cleaned datasets (e.g. master-table.csv)
 ├── notebooks/           # Jupyter notebooks (prep, EDA, modelling, dashboard)
@@ -54,7 +59,7 @@ A complete list of dependencies is available in **requirements.txt**.
 
 ---
 
-## 5. Notebook Pipeline
+## 6. Notebook Pipeline
 The main analytical process is captured in a series of Jupyter notebooks:
 1. **data-prep.ipynb** – Import OULAD tables, SQL + pandas cleaning, build `master-table.csv`  
 2. **eda.ipynb** – Exploratory data analysis, outcome breakdowns, categorical tables  
@@ -66,7 +71,7 @@ The main analytical process is captured in a series of Jupyter notebooks:
 
 ---
 
-## 6. Outputs
+## 7. Outputs
 - **master-table.csv** – Clean, merged dataset ready for analysis  
 - **Excel Tables:** Categorical outcome breakdowns (e.g., by gender, disability, age band)  
 - **Plots:** Stacked bars, scatterplots, histograms, boxplots, correlation heatmap  
@@ -76,7 +81,7 @@ The main analytical process is captured in a series of Jupyter notebooks:
 
 ---
 
-## 7. Contact
+## 8. Contact
 **Author:** James Jackson  
 📧 Email: jamesneiljackson@gmail.com  
 
