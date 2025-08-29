@@ -5,24 +5,7 @@ The data comes from the **Open University Learning Analytics Dataset (OULAD)**, 
 
 ---
 
-## Folder Structure
-
-```
-data/
-├── raw/
-│   ├── assessments.csv
-│   ├── courses.csv
-│   ├── studentAssessment.csv
-│   ├── studentInfo.csv
-│   ├── studentRegistration.csv
-│   ├── studentVle.csv
-│   └── vle.csv
-└── master-table.csv
-```
-
----
-
-## Raw Data (in `raw/`)
+## Raw Data
 
 - **assessments.csv**  
   Metadata for each assessment (weight, type, deadline).
